@@ -109,6 +109,7 @@ jobs:
       HETZNER_V2_DOMAIN: ${{ vars.HETZNER_V2_DOMAIN }}
       HUAWEICLOUD_DOMAIN: ${{ vars.HUAWEICLOUD_DOMAIN }}
       JOKER_DOMAIN: ${{ vars.JOKER_DOMAIN }}
+      LINODE_DOMAIN: ${{ vars.LINODE_DOMAIN }}
       MIKROTIK_DOMAIN: ${{ vars.MIKROTIK_DOMAIN }}
       MYTHICBEASTS_DOMAIN: ${{ vars.MYTHICBEASTS_DOMAIN }}
       NAMEDOTCOM_DOMAIN: ${{ vars.NAMEDOTCOM_DOMAIN }}
@@ -189,6 +190,8 @@ jobs:
       #
       JOKER_USERNAME: ${{ secrets.JOKER_USERNAME }}
       JOKER_PASSWORD: ${{ secrets.JOKER_PASSWORD }}
+      #
+      LINODE_TOKEN: ${{ secrets.LINODE_TOKEN }}
       #
       MIKROTIK_HOST: ${{ secrets.MIKROTIK_HOST }}
       MIKROTIK_USERNAME: ${{ secrets.MIKROTIK_USERNAME }}
